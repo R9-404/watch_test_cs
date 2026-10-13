@@ -1,0 +1,46 @@
+# ---------- 依赖与构建产物（体积大，不入库）----------
+oldIot/node_modules/
+oldIot/dist/
+careold/target/
+*.jar
+*.war
+*.class
+
+# 内置的便携 Node 运行时（node.exe 约 25MB，二进制不适合放仓库）
+# 需要它时到 https://nodejs.org/dist/v10.24.1/ 下载 node-v10.24.1-win-x64.zip 解压到该目录
+tools/node-v10.24.1-win-x64/
+
+# ---------- IDE / 编辑器 ----------
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+*.swp
+
+# ---------- 操作系统 ----------
+Thumbs.db
+Desktop.ini
+desktop.ini
+$RECYCLE.BIN/
+
+# ---------- 日志与临时文件 ----------
+*.log
+logs/
+tmp/
+tmp-*
+*.tmp
+*.bak
+*.bak-*
+*.original
+
+# ---------- 本地环境配置（含账号密码，不要提交）----------
+db.local.properties
+*.local.properties
+.env
+.env.local
+
+# 说明：careold/src/main/resources/application.properties 与 applicationContext.xml
+#      是本地开发配置（含 MySQL root 密码），为保证项目可直接运行保留在仓库中，
+#      如需公开部署请改成环境变量读取，或把这两个文件也加入忽略列表。

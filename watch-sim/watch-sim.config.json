@@ -1,0 +1,9 @@
+{
+  "server": "http://127.0.0.1:8795",
+  "deviceNo": "WATCH0001",
+  "secret": "demo-secret-1",
+  "intervalSeconds": 3,
+  "scenario": "demo",
+  "startPoint": { "lng": 113.0625, "lat": 28.1975 },
+  "appVersion": "1.0.0-demo"
+}

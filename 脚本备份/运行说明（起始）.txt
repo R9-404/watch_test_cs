@@ -1,0 +1,30 @@
+SpringBoot+vue的智慧养老手表管理系统
+本系统主要是通过智能手表监控老人的日常生活，比如血压、心率、睡眠步数、以及摔倒情况。
+共分为两个角色：家长，养老院管理员，功能模块如下图
+家属：个人管理、查看公告、查看自己老人实时信息、留言板。
+管理员：家属管理、公告管理、留言管理、老人健康管理、基础管理。
+2、运行环境
+Jdk1.8 + Tomcat8.5 + maven + mysql + Eclispe（IntelliJ IDEA,Eclispe,MyEclispe,Sts都支持）
+3、技术栈
+spring + springmvc + mybatis + shiro + JdbcTemplate + vue等等
+4、项目访问 
+访问地址: http://localhost:8087/
+管理员 ：账号：15179158704 密码：123456
+家属：账号：15179158705 密码：123456
+
+备注：图片路径需要改application.properites的local-path，改成自己本地磁盘的路径
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
